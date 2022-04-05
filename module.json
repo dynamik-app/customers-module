@@ -1,0 +1,14 @@
+{
+    "name": "Customers",
+    "label": "Customers",
+    "alias": "customers",
+    "description": "manage all customers",
+    "keywords": ["customers"],
+    "priority": 0,
+    "providers": [
+        "Modules\\Customers\\Providers\\CustomersServiceProvider"
+    ],
+    "aliases": {},
+    "files": [],
+    "requires": []
+}

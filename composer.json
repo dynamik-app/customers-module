@@ -1,0 +1,30 @@
+{
+    "name": "dynamik-app/customers-module",
+    "description": "Custom module boilerplate for Laravel v9.0+",
+    "type": "laravel-module",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "George Dobre",
+            "email": "george@dynamik.app"
+        },
+        {
+            "name": "Dan Pod",
+            "email": "dan@dynamik.app"
+        }
+    ],
+    "extra": {
+        "laravel": {
+            "providers": [],
+            "aliases": {
+
+            }
+        },
+        "module-dir": "app/Modules"
+    },
+    "autoload": {
+        "psr-4": {
+            "Modules\\Customers\\": ""
+        }
+    }
+}
